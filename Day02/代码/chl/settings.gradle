@@ -1,0 +1,2 @@
+rootProject.name='chl'
+include ':app'
