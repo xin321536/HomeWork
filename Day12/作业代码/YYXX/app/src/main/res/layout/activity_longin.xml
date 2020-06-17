@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.longinActivity">
+
+    <ImageView
+        android:layout_width="@dimen/x154"
+        android:layout_height="@dimen/y163"
+        android:layout_marginLeft="@dimen/x117"
+        android:layout_marginTop="@dimen/y177"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="@dimen/x331"
+        android:layout_height="@dimen/y82"
+        android:layout_marginLeft="@dimen/x297"
+        android:layout_marginTop="@dimen/y223"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/x331"
+            android:layout_height="wrap_content"
+            android:text="没事没课，因你而设" />
+
+        <TextView
+            android:layout_width="@dimen/x331"
+            android:layout_height="wrap_content"
+            android:text="在线辅导，答辩，陪读" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="337dp"
+        android:layout_height="211dp"
+        android:layout_marginLeft="@dimen/x64"
+        android:layout_marginTop="@dimen/y448">
+
+        <ImageView
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/y32"
+            android:layout_marginLeft="@dimen/x4"
+
+            android:layout_marginTop="13px"
+            android:background="@drawable/ic_launcher" />
+点击没反应
+明天早上处理
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y29"
+            android:layout_marginLeft="@dimen/x73"
+            android:layout_marginTop="@dimen/y17"
+            android:text="请输入手机号"
+            android:textSize="30px" />
+
+        <Button
+            android:layout_width="@dimen/x160"
+            android:layout_height="@dimen/y50"
+            android:layout_marginLeft="@dimen/x477"
+            android:layout_marginTop="@dimen/y13"
+            android:background="#eb6100"
+            android:text="获取验证码"
+            android:textColor="#ffffff"
+            android:textSize="24px" />
+
+        <ImageView
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/y32"
+            android:layout_marginLeft="@dimen/x4"
+            android:layout_marginTop="@dimen/y144"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y29"
+            android:layout_marginLeft="@dimen/x73"
+            android:layout_marginTop="@dimen/y145"
+            android:text="请输入验证码"
+            android:textSize="30px" />
+
+        <Button
+            android:layout_width="@dimen/x613"
+            android:layout_height="@dimen/y90"
+            android:layout_marginLeft="@dimen/x1"
+            android:layout_marginTop="@dimen/y312"
+            android:background="#eb6100"
+            android:text="登录"
+            android:textSize="34px" />
+
+        <TextView
+            android:layout_width="@dimen/x229"
+            android:layout_height="@dimen/y32"
+            android:layout_marginTop="@dimen/y432"
+            android:text="*未注册的手机号将自动注册"
+            android:textColor="#999999"
+            android:textSize="24px" />
+
+        <TextView
+            android:layout_width="@dimen/x94"
+            android:layout_height="@dimen/y23"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/y432"
+            android:layout_marginRight="@dimen/x8"
+            android:text="密码登录"
+            android:textSize="24px" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="@dimen/x118"
+        android:layout_height="@dimen/y22"
+        android:layout_marginLeft="@dimen/x312"
+        android:layout_marginTop="@dimen/y1124"
+        android:gravity="center_horizontal"
+        android:text="三方登陆"
+        android:textSize="24px" />
+
+    <ImageView
+        android:layout_width="@dimen/x40"
+        android:layout_height="@dimen/y31"
+        android:layout_marginLeft="@dimen/x242"
+        android:layout_marginTop="@dimen/y1241"
+        android:background="@drawable/wechat" />
+
+    <TextView
+        android:layout_width="@dimen/x79"
+        android:layout_height="@dimen/x19"
+        android:layout_marginLeft="@dimen/x242"
+        android:layout_marginTop="@dimen/y1315"
+        android:text="微信登录"
+        android:textSize="20px" />
+
+    <ImageView
+        android:layout_width="@dimen/x40"
+        android:layout_height="@dimen/y31"
+        android:layout_marginLeft="@dimen/x442"
+        android:layout_marginTop="@dimen/y1241"
+        android:background="@drawable/qq" />
+
+    <TextView
+        android:layout_width="@dimen/x79"
+        android:layout_height="@dimen/x19"
+        android:layout_marginLeft="@dimen/x442"
+        android:layout_marginTop="@dimen/y1315"
+        android:text="QQ登录"
+        android:textSize="20px" />
+</RelativeLayout>
