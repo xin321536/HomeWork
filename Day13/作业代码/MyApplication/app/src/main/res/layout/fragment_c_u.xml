@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.CUFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y66"
+        android:text="课程列表"
+        android:textSize="@dimen/x36"
+        android:layout_marginTop="@dimen/y62"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/x66"
+        android:layout_height="@dimen/y66"
+        android:layout_marginLeft="@dimen/x681"
+        android:layout_marginTop="@dimen/y62"
+        android:src="@mipmap/ic_interactive_user_list_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="@dimen/x750"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Classification"
+            android:layout_width="@dimen/x62"
+            android:layout_height="@dimen/y60"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="分类"
+            android:textSize="32px" />
+
+        <TextView
+            android:id="@+id/Sorting"
+            android:layout_width="@dimen/x62"
+            android:layout_height="@dimen/y60"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="排序"
+            android:textSize="32px" />
+
+        <TextView
+            android:id="@+id/Screening"
+            android:layout_width="@dimen/x62"
+            android:layout_height="@dimen/y62"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="筛选"
+            android:textSize="32px" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
